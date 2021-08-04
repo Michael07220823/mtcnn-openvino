@@ -27,8 +27,8 @@ import sys
 from setuptools import setup, setuptools
 
 
-__author__ = "Iván de Paz Centeno"
-__version__= "0.1.0"
+__author__ = "Iván de Paz Centeno, Overcomer"
+__version__= "0.1.1"
 
 
 def readme():
@@ -44,9 +44,9 @@ setup(name='mtcnn',
       version=__version__,
       description='Multi-task Cascaded Convolutional Neural Networks for Face Detection, based on TensorFlow',
       long_description=readme(),
-      url='http://github.com/ipazc/mtcnn',
-      author='Iván de Paz Centeno',
-      author_email='ipazc@unileon.es',
+      url='https://github.com/Michael07220823/mtcnn-1',
+      author='Iván de Paz Centeno, Overcomer',
+      author_email='ipazc@unileon.es, michael31703@gmail.com',
       license='MIT',
       packages=setuptools.find_packages(exclude=["tests.*", "tests"]),
       install_requires=[
