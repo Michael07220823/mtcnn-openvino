@@ -1,4 +1,4 @@
-MTCNN
+MTCNN-OpenVINO
 #####
 
 .. image:: https://badge.fury.io/py/mtcnn.svg
